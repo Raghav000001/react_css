@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = ()=> {
      return(
@@ -7,10 +8,26 @@ const Header = ()=> {
               Foodlie
           </div>
             <ul className="flex space-x-4">
-               <li className="hover:text-red-500 cursor-pointer">home</li>
-               <li className="hover:text-red-500 cursor-pointer">about</li>
-               <li className="hover:text-red-500 cursor-pointer">cart</li>
-               <li className="hover:text-red-500 cursor-pointer">login/sign-in</li>
+               <li className="hover:text-red-500 cursor-pointer">
+                 <Link to={"/"}>
+                   home  
+                 </Link>
+              </li>
+               <li className="hover:text-red-500 cursor-pointer">
+                 <Link to={"/about"}> 
+                 about 
+                 </Link>
+                </li>
+               <li className="hover:text-red-500 cursor-pointer">
+                 <Link to={"/cart"}>  
+                 cart
+                 </Link>
+                </li>
+               <li className="hover:text-red-500 cursor-pointer">
+                 <Link>  
+                  login/sign-in
+                 </Link>
+                </li>
             </ul>
         </div>
      )

@@ -25,7 +25,7 @@ const Body = ()=> {
          const data = await fetch("http://localhost:3000/data")
          const json = await data.json()
         const finalData = json.cards[1].card.card.gridElements.infoWithStyle.restaurants;
-        // console.log(finalData);
+        console.log(finalData);
         setData(finalData)
         setFiltered(finalData)
        } catch (error) {
@@ -70,8 +70,6 @@ const Body = ()=> {
           <button className="bg-gray-600 text-white m-1 rounded-md p-3"> high to low </button>
           <button className="bg-gray-600 text-white m-1 rounded-md p-3"> low to high </button>
          </div>
-
-
 
          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                {

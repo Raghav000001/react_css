@@ -5,6 +5,7 @@ import Home from "./pages/Home"
 import About from "./components/About"
 import Cart from "./components/Cart"
 import ErrorPage from "./components/ErrorPage"
+import ResMenu from "./components/ResMenu"
 
 const App = ()=> {
  
@@ -25,7 +26,13 @@ const App = ()=> {
            {
             path:"/cart",
             element:<Cart/>
-            }]
+            },
+            {
+               path:"/restro/menu/:id",
+               element:<ResMenu/>
+            }
+          
+          ]
          },
        ])
        

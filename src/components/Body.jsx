@@ -1,6 +1,7 @@
 import RestroCard from "./RestroCard"
 import { useEffect, useState } from "react"
 import Shimmer from "./Shimmer"
+import { Link } from "react-router-dom"
 
 
 
@@ -25,7 +26,7 @@ const Body = ()=> {
          const data = await fetch("http://localhost:3000/data")
          const json = await data.json()
         const finalData = json.cards[1].card.card.gridElements.infoWithStyle.restaurants;
-        console.log(finalData);
+      //   console.log(finalData);
         setData(finalData)
         setFiltered(finalData)
        } catch (error) {
@@ -73,7 +74,7 @@ const Body = ()=> {
 
          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                {
-           filtered.map((res)=> <RestroCard key={res.info.id}  data={res.info}/>)
+           filtered.map((res)=> <Link to={`restro/menu/${res.info.id}`} key={res.info.id}> <RestroCard  data={res.info}/> </Link>)
         }
          </div>
       </div>

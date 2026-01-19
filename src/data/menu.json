@@ -1,0 +1,254 @@
+{
+  "10576": {
+    "restaurantId": "10576", "name": "Pizza Hut", "cuisines": ["Pizzas"], "costForTwo": "₹350 for two",
+    "menu": {
+      "Pizzas": [
+        {"id": "ph1", "name": "Margherita", "price": 299, "isVeg": true, "description": "Classic cheese pizza"},
+        {"id": "ph2", "name": "Peppy Paneer", "price": 349, "isVeg": true, "description": "Paneer & capsicum"},
+        {"id": "ph3", "name": "Chicken Tikka", "price": 399, "isVeg": false, "description": "Spicy tandoori chicken"},
+        {"id": "ph4", "name": "Peri Peri Chicken", "price": 429, "isVeg": false, "description": "Fiery peri peri"},
+        {"id": "ph5", "name": "Veg Supreme", "price": 379, "isVeg": true, "description": "7 veggies supreme"},
+        {"id": "ph6", "name": "Meat Lovers", "price": 449, "isVeg": false, "description": "Chicken + sausage"}
+      ],
+      "Sides": [
+        {"id": "ph7", "name": "Garlic Breadsticks", "price": 149, "isVeg": true},
+        {"id": "ph8", "name": "Choco Lava Cake", "price": 199, "isVeg": true}
+      ]
+    }
+  },
+  "393840": {
+    "restaurantId": "393840", "name": "Chinese Wok", "cuisines": ["Chinese", "Asian", "Tibetan", "Desserts"], "costForTwo": "₹250 for two",
+    "menu": {
+      "Noodles": [
+        {"id": "cw1", "name": "Hakka Noodles Veg", "price": 179, "isVeg": true},
+        {"id": "cw2", "name": "Chicken Hakka", "price": 219, "isVeg": false},
+        {"id": "cw3", "name": "Schezwan Noodles", "price": 199, "isVeg": true}
+      ],
+      "Rice": [
+        {"id": "cw4", "name": "Veg Fried Rice", "price": 169, "isVeg": true},
+        {"id": "cw5", "name": "Chicken Fried Rice", "price": 209, "isVeg": false},
+        {"id": "cw6", "name": "Schezwan Fried Rice", "price": 189, "isVeg": true}
+      ],
+      "Manchurian": [
+        {"id": "cw7", "name": "Veg Manchurian Dry", "price": 189, "isVeg": true},
+        {"id": "cw8", "name": "Chicken Manchurian Gravy", "price": 229, "isVeg": false}
+      ]
+    }
+  },
+  "5934": {
+    "restaurantId": "5934", "name": "Burger King", "cuisines": ["Burgers", "American"], "costForTwo": "₹350 for two",
+    "menu": {
+      "Burgers": [
+        {"id": "bk1", "name": "Whopper", "price": 299, "isVeg": false},
+        {"id": "bk2", "name": "Veg Whopper", "price": 249, "isVeg": true},
+        {"id": "bk3", "name": "Crispy Chicken", "price": 279, "isVeg": false},
+        {"id": "bk4", "name": "Long Chicken", "price": 259, "isVeg": false}
+      ],
+      "Sides": [
+        {"id": "bk5", "name": "Large Fries", "price": 99, "isVeg": true},
+        {"id": "bk6", "name": "Onion Rings", "price": 129, "isVeg": true}
+      ]
+    }
+  },
+  "391005": {
+    "restaurantId": "391005", "name": "ZAZA Mughal Biryani", "cuisines": ["Biryani", "North Indian", "Awadhi"], "costForTwo": "₹250 for two",
+    "menu": {
+      "Biryani": [
+        {"id": "zb1", "name": "Chicken Dum Biryani", "price": 249, "isVeg": false},
+        {"id": "zb2", "name": "Veg Dum Biryani", "price": 199, "isVeg": true},
+        {"id": "zb3", "name": "Mutton Biryani", "price": 349, "isVeg": false},
+        {"id": "zb4", "name": "Chicken 65 Biryani", "price": 279, "isVeg": false}
+      ],
+      "Kebabs": [
+        {"id": "zb5", "name": "Chicken Tikka", "price": 229, "isVeg": false},
+        {"id": "zb6", "name": "Seekh Kebab", "price": 199, "isVeg": false}
+      ]
+    }
+  },
+  "671928": {
+    "restaurantId": "671928", "name": "KFC", "cuisines": ["Burgers", "Fast Food", "Rolls Wraps"], "costForTwo": "₹400 for two",
+    "menu": {
+      "Buckets": [
+        {"id": "kf1", "name": "8 Pcs Chicken Bucket", "price": 699, "isVeg": false},
+        {"id": "kf2", "name": "6 Pcs Hot Wings", "price": 399, "isVeg": false}
+      ],
+      "Burgers": [
+        {"id": "kf3", "name": "Zinger Burger", "price": 219, "isVeg": false},
+        {"id": "kf4", "name": "Veg Zinger", "price": 189, "isVeg": true}
+      ]
+    }
+  },
+  "656392": {
+    "restaurantId": "656392", "name": "Subway", "cuisines": ["Sandwich", "Salads", "Wrap", "Healthy Food"], "costForTwo": "₹350 for two",
+    "menu": {
+      "Subs": [
+        {"id": "sub1", "name": "Veg Delight 6 inch", "price": 179, "isVeg": true},
+        {"id": "sub2", "name": "Chicken Teriyaki 6 inch", "price": 219, "isVeg": false},
+        {"id": "sub3", "name": "Paneer Tikka Roll", "price": 199, "isVeg": true}
+      ],
+      "Salads": [
+        {"id": "sub4", "name": "Veg Grilled Salad", "price": 229, "isVeg": true}
+      ]
+    }
+  },
+  "375041": {
+    "restaurantId": "375041", "name": "Andhra Gunpowder", "cuisines": ["Andhra", "Biryani", "South Indian"], "costForTwo": "₹350 for two",
+    "menu": {
+      "Biryani": [
+        {"id": "ag1", "name": "Chicken Biryani", "price": 279, "isVeg": false},
+        {"id": "ag2", "name": "Veg Biryani", "price": 229, "isVeg": true}
+      ],
+      "Andhra Specials": [
+        {"id": "ag3", "name": "Chicken 65", "price": 299, "isVeg": false},
+        {"id": "ag4", "name": "Gongura Chicken", "price": 349, "isVeg": false},
+        {"id": "ag5", "name": "Pesarattu Dosa", "price": 199, "isVeg": true}
+      ]
+    }
+  },
+  "717421": {
+    "restaurantId": "717421", "name": "Paris Panini", "cuisines": ["Sandwich", "Wrap", "Fast Food", "Pastas", "Italian", "Salads"], "costForTwo": "₹500 for two",
+    "menu": {
+      "Sandwiches": [
+        {"id": "pp1", "name": "Truffle Mushroom", "price": 349, "isVeg": true},
+        {"id": "pp2", "name": "Peri Peri Chicken", "price": 399, "isVeg": false}
+      ],
+      "Pastas": [
+        {"id": "pp3", "name": "Aglio Olio Penne", "price": 299, "isVeg": true},
+        {"id": "pp4", "name": "Chicken Alfredo", "price": 379, "isVeg": false}
+      ]
+    }
+  },
+  "643665": {
+    "restaurantId": "643665", "name": "WeFit", "cuisines": ["Healthy Food", "Salads", "Keto", "Snacks"], "costForTwo": "₹250 for two",
+    "menu": {
+      "Bowls": [
+        {"id": "wf1", "name": "Quinoa Buddha Bowl", "price": 299, "isVeg": true},
+        {"id": "wf2", "name": "Grilled Chicken Bowl", "price": 349, "isVeg": false}
+      ],
+      "Salads": [
+        {"id": "wf3", "name": "Kale Protein Salad", "price": 279, "isVeg": true}
+      ]
+    }
+  },
+  "426776": {
+    "restaurantId": "426776", "name": "Theobroma", "cuisines": ["Desserts", "Bakery", "Beverages"], "costForTwo": "₹400 for two",
+    "menu": {
+      "Cakes": [
+        {"id": "th1", "name": "Chocolate Mousse", "price": 199, "isVeg": true},
+        {"id": "th2", "name": "Red Velvet Slice", "price": 229, "isVeg": true}
+      ],
+      "Pastries": [
+        {"id": "th3", "name": "Almond Croissant", "price": 149, "isVeg": true},
+        {"id": "th4", "name": "Brownie", "price": 129, "isVeg": true}
+      ]
+    }
+  },
+  "23678": {
+    "restaurantId": "23678", "name": "McDonalds", "cuisines": ["Burgers", "Beverages", "Cafe", "Desserts"], "costForTwo": "₹400 for two",
+    "menu": {
+      "Burgers": [
+        {"id": "mc1", "name": "McChicken", "price": 179, "isVeg": false},
+        {"id": "mc2", "name": "McAloo Tikki", "price": 139, "isVeg": true}
+      ],
+      "Desserts": [
+        {"id": "mc3", "name": "McFlurry Oreo", "price": 129, "isVeg": true}
+      ]
+    }
+  },
+  "158855": {
+    "restaurantId": "158855", "name": "Candices Gourmet Sandwiches Wraps", "cuisines": ["Salads", "Sandwich", "Snacks"], "costForTwo": "₹600 for two",
+    "menu": {
+      "Sandwiches": [
+        {"id": "cg1", "name": "Truffle Egg Salad", "price": 399, "isVeg": true},
+        {"id": "cg2", "name": "Smoked Chicken", "price": 449, "isVeg": false}
+      ]
+    }
+  },
+  "596862": {
+    "restaurantId": "596862", "name": "Moplahs", "cuisines": ["Kerala", "Biryani", "Seafood", "Beverages"], "costForTwo": "₹800 for two",
+    "menu": {
+      "Kerala": [
+        {"id": "mp1", "name": "Malabar Fish Curry", "price": 499, "isVeg": false},
+        {"id": "mp2", "name": "Appam with Stew", "price": 299, "isVeg": true}
+      ],
+      "Seafood": [
+        {"id": "mp3", "name": "Prawns Roast", "price": 599, "isVeg": false}
+      ]
+    }
+  },
+  "711368": {
+    "restaurantId": "711368", "name": "Salad Days", "cuisines": ["Salads"], "costForTwo": "₹500 for two",
+    "menu": {
+      "Salads": [
+        {"id": "sd1", "name": "Quinoa Protein Bowl", "price": 349, "isVeg": true},
+        {"id": "sd2", "name": "Grilled Chicken Salad", "price": 399, "isVeg": false}
+      ]
+    }
+  },
+  "41913": {
+    "restaurantId": "41913", "name": "Chinita Real Mexican Food", "cuisines": ["Mexican", "Salads", "Desserts", "Beverages"], "costForTwo": "₹750 for two",
+    "menu": {
+      "Tacos": [
+        {"id": "cm1", "name": "Veg Tacos", "price": 299, "isVeg": true},
+        {"id": "cm2", "name": "Chicken Tacos", "price": 349, "isVeg": false}
+      ],
+      "Burritos": [
+        {"id": "cm3", "name": "Veggie Burrito", "price": 379, "isVeg": true}
+      ]
+    }
+  },
+  "586682": {
+    "restaurantId": "586682", "name": "Dum Safar Biryani", "cuisines": ["Biryani", "Kebabs", "North Indian", "Barbecue"], "costForTwo": "₹500 for two",
+    "menu": {
+      "Biryani": [
+        {"id": "ds1", "name": "Hyderabadi Chicken Biryani", "price": 299, "isVeg": false},
+        {"id": "ds2", "name": "Mutton Biryani", "price": 449, "isVeg": false}
+      ],
+      "Kebabs": [
+        {"id": "ds3", "name": "Chicken Seekh Kebab", "price": 249, "isVeg": false}
+      ]
+    }
+  },
+  "718430": {
+    "restaurantId": "718430", "name": "The Pizza Bakery", "cuisines": ["Pizzas", "Pastas", "Italian", "Desserts"], "costForTwo": "₹700 for two",
+    "menu": {
+      "Pizzas": [
+        {"id": "tp1", "name": "Margherita Sourdough", "price": 499, "isVeg": true},
+        {"id": "tp2", "name": "Truffle Mushroom", "price": 649, "isVeg": true}
+      ]
+    }
+  },
+  "70012": {
+    "restaurantId": "70012", "name": "SMOOR", "cuisines": ["Asian", "Burgers", "Italian", "Thai", "Sushi"], "costForTwo": "₹450 for two",
+    "menu": {
+      "Burgers": [
+        {"id": "sm1", "name": "Truffle Burger", "price": 399, "isVeg": false},
+        {"id": "sm2", "name": "Veg Patty Burger", "price": 349, "isVeg": true}
+      ],
+      "Asian": [
+        {"id": "sm3", "name": "Thai Basil Chicken", "price": 429, "isVeg": false}
+      ]
+    }
+  },
+  "38634": {
+    "restaurantId": "38634", "name": "Third Wave Coffee", "cuisines": ["Beverages", "Bakery", "Continental"], "costForTwo": "₹400 for two",
+    "menu": {
+      "Coffee": [
+        {"id": "tw1", "name": "Cold Brew", "price": 199, "isVeg": true},
+        {"id": "tw2", "name": "Cappuccino", "price": 179, "isVeg": true}
+      ],
+      "Pastries": [
+        {"id": "tw3", "name": "Croissant", "price": 149, "isVeg": true}
+      ]
+    }
+  },
+  "776753": {
+    "restaurantId": "776753", "name": "Blue Tokai Coffee Roasters", "cuisines": ["Cafe", "Coffee", "Beverages"], "costForTwo": "₹600 for two",
+    "menu": {
+      "Coffee": [
+        {"id": "bt1", "name": "Aeropress", "price": 249, "isVeg": true},
+        {"id": "bt2", "name": "V60 Pour Over", "price": 229, "isVeg": true}
+      ]
+    }
+  }
+}

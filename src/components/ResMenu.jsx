@@ -1,40 +1,19 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import { IMAGE_URL } from "../helper/constants"
+import useRestroDataById from "../hooks/useRestroDataById"
+import useRestroMenu from "../hooks/useRestroMenu"
+
 
 const ResMenu = () => {
-     const [resData,setResData] = useState([])
-     const [menu,setMenu] = useState({})
-
-       useEffect(()=> {fetchData()},[])
-
-        //   const params = useParams()
-        //   console.log(params);
-        //   const id = params.id
+    
         const {id} = useParams()
-        //   console.log(id);
-
-
-    const fetchData = async()=> {
-       try {
-         const data = await fetch("http://localhost:3000/data")
-         const json = await data.json()
-        const finalData = json.cards[1].card.card.gridElements.infoWithStyle.restaurants.filter((res)=> res.info.id===id)
-         setResData(finalData[0].info)
-         console.log(finalData);
-         
-         console.log(finalData);
-         
-        const menu = await fetch(`http://localhost:3500/${id}`)
-        const menuJson = await menu.json()
-        setMenu(menuJson.menu)
+        const resData = useRestroDataById(id)
+        const menu = useRestroMenu(id)
         
-       } catch (error) {
-         console.log(error);
-       }
-     }
 
-   const image = IMAGE_URL+resData.cloudinaryImageId
+   
+      const image = IMAGE_URL+resData.cloudinaryImageId
 
   return (
     <div className="min-h-screen bg-linear-to-br from-orange-50 to-red-50 p-6">

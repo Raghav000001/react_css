@@ -7,6 +7,9 @@ import { IMAGE_URL } from "../helper/constants";
    const {sla} = data;
    const {deliveryTime} = sla;
    const image = IMAGE_URL+cloudinaryImageId;
+   console.log(costForTwo);
+   
+   
     
     return (
          <div className="bg-white rounded-lg shadow-lg p-4 m-2">

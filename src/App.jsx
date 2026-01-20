@@ -5,7 +5,12 @@ import Home from "./pages/Home"
 import About from "./components/About"
 import Cart from "./components/Cart"
 import ErrorPage from "./components/ErrorPage"
-import ResMenu from "./components/ResMenu"
+import { lazy } from "react"
+import { Suspense } from "react"
+import Shimmer from "./components/Shimmer"
+
+const ResMenu = lazy(()=> import("./components/ResMenu"))
+ 
 
 const App = ()=> {
  
@@ -29,7 +34,7 @@ const App = ()=> {
             },
             {
                path:"/restro/menu/:id",
-               element:<ResMenu/>
+               element:<Suspense fallback={<Shimmer/>}><ResMenu/></Suspense>
             }
           
           ]

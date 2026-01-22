@@ -1,18 +1,24 @@
 import RestroCard from "./RestroCard"
-import { useEffect, useState } from "react"
 import Shimmer from "./Shimmer"
 import { Link } from "react-router-dom"
 import useRestroData from "../hooks/useRestroData"
+import useUserStatus from "../hooks/useUserStatus"
+import { cardWithLabel } from "./RestroCard"
 
 
 
 
 const Body = ()=> {
+   const onlineStatus = useUserStatus()
  
    let time = 30
 
+      const RestroCardWithLabel = cardWithLabel(RestroCard)
+
     
-     const {data,search,filtered} = useRestroData()
+     const {data,search,filtered,setFiltered,setSearch} = useRestroData()
+     console.log(data);
+     
 
     
    if (data.length===0) {
@@ -20,6 +26,11 @@ const Body = ()=> {
          <Shimmer/>
       )
    }
+
+   if (!onlineStatus) {
+      return (<h1> seems like you're offline!!!!! </h1>)      
+   }
+    
 
 const getCost = (str) => {
   return Number(str.replace(/\D/g, "")); 
@@ -66,7 +77,12 @@ const getCost = (str) => {
 
          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {
-           filtered.map((res)=> <Link to={`restro/menu/${res.info.id}`} key={res.info.id}> <RestroCard  data={res.info}/> </Link>)
+           filtered.map((res)=>
+             <Link to={`restro/menu/${res.info.id}`} key={res.info.id}> 
+              {
+                  res.info.isOpen ?  <RestroCardWithLabel data={res.info}/>  : <RestroCard  data={res.info}/>
+              }
+              </Link>)
         }
          </div>
       </div>

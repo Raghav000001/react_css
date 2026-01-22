@@ -24,7 +24,7 @@ const useRestroData = () => {
           }
         }
    
-        return {data,filtered,search}
+        return {data,filtered,search,setFiltered,setSearch}
 
 }
 

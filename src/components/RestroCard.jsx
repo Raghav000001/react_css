@@ -7,7 +7,7 @@ import { IMAGE_URL } from "../helper/constants";
    const {sla} = data;
    const {deliveryTime} = sla;
    const image = IMAGE_URL+cloudinaryImageId;
-   console.log(costForTwo);
+   // console.log(costForTwo);
    
    
     
@@ -22,5 +22,24 @@ import { IMAGE_URL } from "../helper/constants";
          </div>
     )
  }
+
+   export  const cardWithLabel = (RestroCard) => {
+      
+        return (props)=> {
+          const {isOpen} = props.data
+          console.log(isOpen);
+          
+
+          return(
+               <>
+               <label className="bg-black text-orange-300 absolute p-1.5"> {isOpen ? "Open" : "Closed"}  </label>
+               <RestroCard {...props}/> 
+               </>
+          )
+
+        }
+     }
+  
+ 
 
 export default RestroCard

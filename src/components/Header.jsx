@@ -13,7 +13,7 @@ const Header = ()=> {
           <div className="text-2xl font-bold text-red-600">
               Foodlie
           </div>
-            <ul className="flex space-x-4">
+            <ul className="flex gap-5">
                <li className="hover:text-red-500 cursor-pointer">
                  <Link to={"/"}>
                    home  

@@ -250,5 +250,94 @@
         {"id": "bt2", "name": "V60 Pour Over", "price": 229, "isVeg": true}
       ]
     }
+  },
+  "272237": {
+    "restaurantId": "272237", "name": "Spice Route", "cuisines": ["Indian", "Regional Indian", "Vegetarian"], "costForTwo": "₹300 for two",
+    "menu": {
+      "Dosa": [
+        {"id": "sr1", "name": "Masala Dosa", "price": 149, "isVeg": true, "description": "Crispy dosa with potato filling"},
+        {"id": "sr2", "name": "Paneer Dosa", "price": 179, "isVeg": true, "description": "Dosa with cottage cheese"},
+        {"id": "sr3", "name": "Onion Dosa", "price": 139, "isVeg": true, "description": "Thin crispy dosa with onions"}
+      ],
+      "Curries": [
+        {"id": "sr4", "name": "Chana Masala", "price": 189, "isVeg": true, "description": "Spiced chickpeas in tomato gravy"},
+        {"id": "sr5", "name": "Butter Chicken", "price": 279, "isVeg": false, "description": "Creamy tomato-based curry with chicken"},
+        {"id": "sr6", "name": "Dal Makhani", "price": 219, "isVeg": true, "description": "Creamy lentil curry"}
+      ],
+      "Breads": [
+        {"id": "sr7", "name": "Naan", "price": 79, "isVeg": true, "description": "Soft Indian flatbread"},
+        {"id": "sr8", "name": "Garlic Naan", "price": 99, "isVeg": true, "description": "Naan with garlic butter"}
+      ]
+    }
+  },
+  "736632": {
+    "restaurantId": "736632", "name": "Ramen House", "cuisines": ["Japanese", "Noodles", "Asian Fusion"], "costForTwo": "₹400 for two",
+    "menu": {
+      "Ramen": [
+        {"id": "rh1", "name": "Tonkotsu Ramen", "price": 349, "isVeg": false, "description": "Pork bone broth with noodles"},
+        {"id": "rh2", "name": "Vegetable Ramen", "price": 299, "isVeg": true, "description": "Veggie broth with fresh vegetables"},
+        {"id": "rh3", "name": "Chicken Miso Ramen", "price": 329, "isVeg": false, "description": "Miso flavored chicken ramen"}
+      ],
+      "Sides": [
+        {"id": "rh4", "name": "Gyoza Dumplings", "price": 179, "isVeg": false, "description": "Pan-fried pork dumplings"},
+        {"id": "rh5", "name": "Edamame", "price": 129, "isVeg": true, "description": "Steamed soybeans with salt"}
+      ]
+    }
+  },
+  "780136": {
+    "restaurantId": "780136", "name": "Grillhouse Prime", "cuisines": ["Grilled", "Steakhouse", "BBQ"], "costForTwo": "₹800 for two",
+    "menu": {
+      "Steaks": [
+        {"id": "gp1", "name": "Ribeye Steak", "price": 699, "isVeg": false, "description": "Prime cut ribeye, 300g"},
+        {"id": "gp2", "name": "NY Strip Steak", "price": 599, "isVeg": false, "description": "Classic NY strip, 250g"},
+        {"id": "gp3", "name": "Filet Mignon", "price": 799, "isVeg": false, "description": "Tender filet, 200g"}
+      ],
+      "Grilled Seafood": [
+        {"id": "gp4", "name": "Grilled Salmon", "price": 529, "isVeg": false, "description": "Fresh Atlantic salmon"},
+        {"id": "gp5", "name": "Shrimp Skewers", "price": 449, "isVeg": false, "description": "Marinated grilled shrimp"}
+      ]
+    }
+  },
+  "558763": {
+    "restaurantId": "558763", "name": "Thai Spice Garden", "cuisines": ["Thai", "Southeast Asian", "Noodles"], "costForTwo": "₹350 for two",
+    "menu": {
+      "Curries": [
+        {"id": "tg1", "name": "Green Curry", "price": 299, "isVeg": true, "description": "Spicy green curry with vegetables"},
+        {"id": "tg2", "name": "Red Curry Chicken", "price": 349, "isVeg": false, "description": "Rich red curry with chicken"},
+        {"id": "tg3", "name": "Massaman Beef", "price": 379, "isVeg": false, "description": "Peanut-based beef curry"}
+      ],
+      "Noodles & Rice": [
+        {"id": "tg4", "name": "Pad Thai", "price": 279, "isVeg": false, "description": "Stir-fried rice noodles with shrimp"},
+        {"id": "tg5", "name": "Vegetable Pad Thai", "price": 229, "isVeg": true, "description": "Traditional pad thai with veggies"}
+      ]
+    }
+  },
+  "25620": {
+    "restaurantId": "25620", "name": "Sweet Cravings Bakery", "cuisines": ["Bakery", "Desserts", "Pastries", "Cafe"], "costForTwo": "₹300 for two",
+    "menu": {
+      "Cakes": [
+        {"id": "sc1", "name": "Chocolate Truffle Cake", "price": 249, "isVeg": true, "description": "Rich chocolate cake with truffle"},
+        {"id": "sc2", "name": "Vanilla Cheesecake", "price": 279, "isVeg": true, "description": "Classic NY style cheesecake"},
+        {"id": "sc3", "name": "Black Forest Cake", "price": 299, "isVeg": true, "description": "Cherry and chocolate cake"}
+      ],
+      "Pastries": [
+        {"id": "sc4", "name": "Chocolate Eclair", "price": 149, "isVeg": true, "description": "Choux pastry with chocolate filling"},
+        {"id": "sc5", "name": "Mille Feuille", "price": 179, "isVeg": true, "description": "Layered pastry with cream"}
+      ]
+    }
+  },
+  "108097": {
+    "restaurantId": "108097", "name": "Taco Fiesta", "cuisines": ["Mexican", "Tex-Mex", "Latin American"], "costForTwo": "₹400 for two",
+    "menu": {
+      "Tacos": [
+        {"id": "tf1", "name": "Carne Asada Tacos", "price": 349, "isVeg": false, "description": "Grilled beef tacos with cilantro"},
+        {"id": "tf2", "name": "Fish Tacos", "price": 329, "isVeg": false, "description": "Crispy fish with cabbage slaw"},
+        {"id": "tf3", "name": "Black Bean Tacos", "price": 279, "isVeg": true, "description": "Seasoned black beans with vegetables"}
+      ],
+      "Mains": [
+        {"id": "tf4", "name": "Chicken Enchiladas", "price": 399, "isVeg": false, "description": "Rolled tortillas with cheese sauce"},
+        {"id": "tf5", "name": "Vegetable Quesadilla", "price": 299, "isVeg": true, "description": "Grilled tortilla with melted cheese and veggies"}
+      ]
+    }
   }
 }

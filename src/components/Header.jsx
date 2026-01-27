@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import useUserStatus from '../hooks/useUserStatus';
+import userContext from '../context/userContext';
 
 const Header = ()=> {
 
      const onlineStatus = useUserStatus()
       // console.log(onlineStatus);
+
+       const data = useContext(userContext)
+      //  console.log(data);
+       const {isLoggedIn,username} = useContext(userContext)       
       
 
      return(
@@ -34,9 +39,9 @@ const Header = ()=> {
                  cart
                  </Link>
                 </li>
-               <li className="hover:text-red-500 cursor-pointer">
+               <li className=" p-1 cursor-pointer rounded-4xl bg-black text-white">
                  <Link>  
-                  login/sign-in
+                   {isLoggedIn ? username : "please log-in" }
                  </Link>
                 </li>
             </ul>

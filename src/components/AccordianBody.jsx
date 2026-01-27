@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import userContext from '../context/userContext'
 
 const AccordianBody = ({items}) => {
+   
+    const {isLoggedIn,username} = useContext(userContext)
+
+   
   return (
     <div>
          <div className="space-y-4">
@@ -18,6 +23,7 @@ const AccordianBody = ({items}) => {
                             <span className="px-3 py-1 rounded-full text-sm font-medium bg-gray-100">
                               {i.isVeg ? "Veg 🟢" : "Non-veg 🔴"}
                             </span>
+
                             <button className="bg-linear-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white px-6 py-2 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
                               Add to Cart
                             </button>

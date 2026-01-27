@@ -9,6 +9,10 @@ import { cardWithLabel } from "./RestroCard"
 
 
 const Body = ()=> {
+   
+        
+
+
    const onlineStatus = useUserStatus()
  
    let time = 30
@@ -67,7 +71,7 @@ const getCost = (str) => {
           className="bg-gray-600 text-white m-1 rounded-md p-3"> fastest delivery</button>
           <button
           onClick={()=> {
-                const sorted = [...data].sort((a,b)=> getCost(b.info.costForTwo) - getCost( a.info.costForTwo))
+                const sorted = [...data].sort((a,b)=> getCost(b.info.costForTwo) - getCost(a.info.costForTwo))
                 setFiltered(sorted)
           }}
           className="bg-gray-600 text-white m-1 rounded-md p-3"> high to low </button>

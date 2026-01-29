@@ -1,8 +1,12 @@
 import React, { useContext } from 'react'
 import userContext from '../context/userContext'
+import { useDispatch } from 'react-redux'
+import { addToCart } from '../store/slices/cartSlice'
 
 const AccordianBody = ({items}) => {
    
+    const dispatch = useDispatch()
+
     const {isLoggedIn,username} = useContext(userContext)
 
    
@@ -24,7 +28,11 @@ const AccordianBody = ({items}) => {
                               {i.isVeg ? "Veg 🟢" : "Non-veg 🔴"}
                             </span>
 
-                            <button className="bg-linear-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white px-6 py-2 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
+                            <button
+                             onClick={()=> {
+                                dispatch(addToCart(i,i.id))
+                             }} 
+                            className="bg-linear-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white px-6 py-2 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
                               Add to Cart
                             </button>
                           </div>
